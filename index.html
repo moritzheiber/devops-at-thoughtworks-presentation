@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DevOps at ThoughtWorks</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <style>
+      @import url(http://fonts.googleapis.com/css?family=Open+Sans:900,700,800,400,300);
+
+      body {
+        font-family: 'Open Sans';
+        color: #efefef;
+      }
+
+      a:link, a:visited, a:hover, a:active {
+        color: #efefef;
+      }
+
+      .remark-slide-content {
+        background-color: black;
+      }
+
+      h1, h2, h3 {
+        font-family: 'Open Sans';
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: -0.05em;
+        text-shadow: 2px 2px #121212;
+      }
+
+      .quote {
+        background-color: #efefef;
+        color: #121212;
+        text-align: justify;
+        border: 1px solid white;
+        box-shadow: 1px 1px 10px #efefef;
+        font-size: 1.2em;
+      }
+
+      .citation {
+        font-size: 0.5em;
+      }
+
+      .backgroundblue { background-color: rgb(26,115,186); }
+      .backgroundgreen { background-color: rgb(17,170,88); }
+      .backgroundwhite { background-color: #FFF; }
+
+      .image img {
+        border-radius: 10px;
+        border: 1px solid #efefef;
+        max-width: 100%;
+      }
+
+      .image-smaller img {
+        border-radius: 10px;
+        border: 1px solid #efefef;
+        max-width: 100%;
+        max-height: 400px;
+      }
+
+      .footnote {
+        position: absolute;
+        left: 5px;
+        bottom: 0px;
+      }
+
+      .footnote img {
+        max-width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+class: middle, center, backgroundblue
+layout: true
+count: false
+
+.footnote[![tw-logo](images/logos/TW Colour Logos_trans_white.png)]
+
+---
+background-image: url(images/background1.jpg)
+
+.left[
+# DevOps
+# AT
+# ThoughtWorks
+]
+
+???
+
+- Hello everybody, welcome! Thank you for being here
+- I'm going to be talking about DevOps and what it means to ThoughtWorks and what we do with it
+
+---
+
+.image[
+![business-card](images/business-card.jpg)
+]
+
+???
+
+- My name is Moritz Heiber, I work for ThoughtWorks
+- My official title is DevOps Birth Assistant
+  - I help delivery babies, software babies; I help people build better software, faster, while using the idea of DevOps
+- My unofficial title is DevOps Advocate
+- Love to talk about DevOps, what it is, about its benefits and technology inspired by it
+- This is a talk about DevOps and technology that it makes possible
+- Since we're talking about DevOps, let's make sure we have a common understanding
+
+---
+
+# ThoughtWorkers are consultants
+
+???
+
+- First and foremost: We are consultants, we bring our talent to our clients and show them what the need to know and aspire to the achieve their goals
+- Yes, we know a lot about managing infrastructure, writing tests and releasing software in an agile fassion
+- And yes, we know about teaching, coaching and owning up to our mistakes just as well
+- And we like to do DevOps, because reliance on a single individual or a team to keep your software releease process running is a **bad idea**
+
+---
+
+# ThoughtWorkers
+# <span style="color:red;"><i class="fa fa-heart"></i></span>
+# DevOps
+
+???
+
+- As software engineers it's good to be responsible for all of what you do with software, not just your bugs
+- Being in control means being able to take responsibility means learning fast, releasing faster
+- It also means you are dependend on your team, you're not a lonesome warrior, you can consult with other members
+- Your culture is as important as your code!
+
+- **Now that I've talked about DevOps already, what is it though? What would be a good definition?**
+
+---
+
+class: backgroundgreen
+
+# What is DevOps?
+
+---
+
+.image[
+![buzzword!](images/buzzword-devops.jpg)
+]
+
+???
+
+- A buzzword, mostly misunderstood
+- I.e. "DevOps Engineer": What's that? Somebody improving the idea of development and operations through engineering?
+  - People usually just mean infrastructure/ops engineers, DevOps sounds "better" (which is ridiculous)
+
+---
+class: backgroundgreen
+
+# Where do we come from?
+
+---
+
+.image[
+![ops-problem](images/ops-problem.jpg)
+]
+
+???
+- Traditionally, software developers and operational staff
+- Two departments so far away from each other, they sometimes cancel each other out.
+- This is what you'd usually get when asking either department for help
+- Projects get stuck in bug tracking tools, project management charts and inaccurate projections/expectations
+- Technology and scope changes frequently, communication is lacking
+- So, what's the alternative?
+
+---
+
+.left[
+# DevOps is about ...
+
+### The right attitude
+### The right team chemistry
+### The right tools for the job
+]
+
+???
+
+- Right attitude: Trust your team to do the right thing, give feedback constantly and continuously, share knowledge early and often
+- The right team chemistry: Specialist aren't bad, they just need to work together, be open to change and interested in new things
+- The right tools for the job:
+  - Don't be afraid to diversify! Use other tools on a regular basis
+    - Don't get embroiled in the hammer/nail conundrum! Be sure you're applying the right approach, try a lot more, fail more often, allow people to fail
+
+---
+background-image: url(images/TWU_team\ shot.png)
+
+# Mixing it up!
+
+???
+
+- Single purpose, homogenous teams should be a thing of the past
+- Specialists are totally okay, just one when they're concentrated in a single team
+  - You are always going to be get yourself blocked because you rely on functionality or experience which isn't the realm of your specialized team
+- Rather, try building teams with diverse backgrounds that don't rely on a single technology and/or language
+- Focus on value driven team compositions with business impact
+
+---
+background-image: url(images/working-together.png)
+
+# Working together
+
+.image[
+]
+
+???
+- Pairing! Have you done it?
+- Solution: Bring them together > DevOps
+- Enable anyone to delivery their code to consumers
+
+---
+
+background-image: url(images/build-pipeline.jpg)
+
+# Delivery without boundaries
+
+???
+
+- Do you remember the slide from just a couple of minutes ago? "Ops problem now"? That's a hard dependency and therefore a boundary. **You don't want that!**
+- You want to deliver your release to your customers immediately, you believe in a rate of return!
+- In fact, it's about continuous delivery most of the time
+
+---
+
+.quote[
+> Continuous Delivery (CD) is a set of practices and principles in software engineering aimed at, **building, testing, and releasing software, faster and more frequently**. These principles help reduce the cost, time and risk of delivering changes, and ultimately value, to customers by allowing for **more incremental changes to applications in production**.
+]
+
+.right[.citation[https://en.wikipedia.org/wiki/Continuous_delivery (emphasize are mine)]]
+
+???
+
+- More value for customers, faster .. that's what everyone wants, right?
+  - At least everyone should want it
+- Incremental changes, tiny steps instead of huge, bloated changes you'll never be able to verify beforehand much less deploy efficiently
+
+- And therefore, you have more time to focus on what's important
+  - And that btw, includes collaborating, communicating and failing .. everything you need to embrace when doing DevOps AND CD!
+
+---
+
+# Delivery pipeline(s)
+
+.image[
+![gocd](images/gocd.jpg)
+]
+
+.right[.citation[https://go.cd]]
+
+???
+
+- This is the manifestation of a continuous delivery life cycle
+  - A release pipeline, taking the modified source code and initiating a build
+  - That build is getting integrated and tested
+  - Possibly deployed to a staging environment, for manual testing or approval
+  - And in the end the code in this pipeline ends up in production, all in one sweep
+- This is continuous delivery.
+- No more release planning, release schedules, release angst, release days, firefighting
+
+- Ideally, all of these steps are well defined and can be logically separated. **As easy as that**.
+
+- However, there are a few things I think are necessary to keep in mind and think about when going for CD
+
+---
+background-image: url(images/twu_lego3_late_integration.png)
+
+# Building incremental, well tested software
+
+???
+
+- Your software stack and design need to support CD
+- A gigantic mess of spaghetti code is hardly CD enabled
+  - If it takes one release 3 hours to build I wouldn't do CD either
+- Don't have to be microservices, but it helps ;)
+  - But at least try to split some of your code into logical, independent units connected by open protocols
+- You should not be afraid to deliver code to production immediately: There should not be a "trigger" somewhere that you'd have to press manually for delivery. Otherwise it's "Interrupted Delivery".
+  - If you're afraid you're not testing well enough
+- Use feature toggles where necessary; they can save you from the occasional stage fright
+  - They're not a silver bullet for delivering important features and shouldn't keep you from iterating
+
+---
+background-image: url(./images/Climbing_in_Lei_Pi_Shan_-_Yangshuo,_China.png)
+
+# Trusting your code!
+
+.left[
+### If you're afraid of releasing you're not testing well enough
+]
+
+???
+
+- Your code needs to have a test coverage which is above average to ensure you're delivering healthy code
+- Healthy code implies and instills confidence and trust, in delivering it anywhere
+
+- This isn't the job of QA!
+  - They are not your dumb test monkeys!
+
+- Imagine QA as a bunch of intelligent, bad ass mad scientists trying to continuously tear the very fabric of your product apart
+
+---
+class: backgroundgreen
+
+# So what is DevOps?
+
+---
+
+.left[
+## Colleboration in diverse teams
+## Continuously releasing software
+## Trusting and celebrating your accomplishments
+]
+
+---
+background-image: url(./images/twu_cheer_CMYK.png)
+
+.left[
+### So ..
+### If you liked all of that, why not come and join us?
+]
+
+# Celebrate DevOps!
+
+---
+
+## Thank you!
+
+<i class="fa fa-twitter"></i> moritzheiber | <i class="fa fa-envelope"></i> mheiber@thoughtworks.com | <i class="fa fa-home"></i> heiber.im
+
+.image-smaller[
+![questions](images/questions.jpg)
+]
+    </textarea>
+    <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        ratio: '4:3'
+      });
+    </script>
+  </body>
+</html>
