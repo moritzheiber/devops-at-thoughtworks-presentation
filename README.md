@@ -4,7 +4,7 @@ This is a brief and by no means representative presentation about DevOps and wha
 
 ## Tools
 
-This presentation is done in [RemarkJS](http://remarkjs.com). To navigate around the slides use either space, left-arrow or right-arrow. To see my notes press **`p`** for **presenter mode**. Other useful shortcuts are **c** (cloning + linking your current view) and **b** (blanking the current view).
+This presentation is done in [RemarkJS](http://remarkjs.com). To navigate around the slides use either **space**, **left-arrow** or **right-arrow**. To see my notes press **p** for **presenter mode**. Other useful shortcuts are **c** (cloning + linking your current view) and **b** (blanking the current view).
 
 ### Local webserver
 
