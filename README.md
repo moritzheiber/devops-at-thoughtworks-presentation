@@ -6,11 +6,21 @@ This is a brief and by no means representative presentation about DevOps and wha
 
 This presentation is done in [RemarkJS](http://remarkjs.com). To navigate around the slides use either **space**, **left-arrow** or **right-arrow**. To see my notes press **p** for **presenter mode**. Other useful shortcuts are **c** (cloning + linking your current view) and **b** (blanking the current view).
 
+### Docker container
+
+You can easily run this presentation by issuing the following command:
+
+```sh
+$ docker run --rm -p8000:8000 moritzheiber/devops-at-thoughtworks-presentation
+```
+
+It should then be available at [http://localhost:8000](http://localhost:8000).
+
 ### Local webserver
 
 There's a `Rakefile` which starts a tine, built-in Ruby-based webserver. To use it, run:
 
-```
+```sh
 $ bundle install --path vendor/bundle
 $ bundle exec rake webserver
 ```
